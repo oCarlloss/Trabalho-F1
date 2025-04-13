@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 1rem;
+    background: url('https://sportal365images.com/process/smp-images-production/sport.aktuality.sk/15022024/3d9e7580-0401-4aaa-b715-1341d1d8cc9d.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #222;
+  
+  }
+  
+  header {
+    background: #000000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    text-align: center;
+    flex: 1;
+    font-size: 1.5rem;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+  
+  .logo.right {
+    margin-left: auto;
+  }
+  
+  .logo.left {
+    margin-right: auto;
+  }
+  
+  .logo-mini {
+    height: 30px;
+    color: #ffffff;
+  }
+  
+  section {
+    margin: 2rem 0;
+    color: #ffffff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  table, th, td {
+    border: 1px solid #a0a0a0;
+    color: #ffffff;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    margin-top: 1.5rem;
+  }
+  .flag-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+    font-size: 1.2rem;
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    width: auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+  
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .flag-tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
